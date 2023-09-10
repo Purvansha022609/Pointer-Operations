@@ -12,11 +12,11 @@ In the case of **Call by Reference**, when we pass the parameter’s location re
 
 **Call by Value**
 
-|01| Define a function that takes a pointer as a parameter.
+1.Define a function that takes a pointer as a parameter.
 
-|02| Inside the function, you can access and modify the data pointed to by ptr. Changes made to *ptr will affect the original data in the calling code.
+2.Inside the function, you can access and modify the data pointed to by ptr. Changes made to *ptr will affect the original data in the calling code.
 
-|03| In the main program, declare a variable and initialize it.
+3.In the main program, declare a variable and initialize it.
 
 **Call by Reference**
 
