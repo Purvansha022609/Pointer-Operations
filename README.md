@@ -12,15 +12,19 @@ In the case of **Call by Reference**, when we pass the parameter’s location re
 
 **Call by Value**
 
-|01|Define a function that takes a pointer as a parameter.
-|02|Inside the function, you can access and modify the data pointed to by ptr. Changes made to *ptr will affect the original data in the calling code.
-|03|In the main program, declare a variable and initialize it.
+|01| Define a function that takes a pointer as a parameter.
+
+|02| Inside the function, you can access and modify the data pointed to by ptr. Changes made to *ptr will affect the original data in the calling code.
+
+|03| In the main program, declare a variable and initialize it.
 
 **Call by Reference**
 
-|01|Define a function that takes a pointer as a parameter.
-|02|Inside the function, you can access and modify the value at the memory location pointed to by x. Changes made to *x will affect the original variable from the calling code.
-|03|Call the function from your main program and pass the address (pointer) of the variable you want to modify.
+|01| Define a function that takes a pointer as a parameter.
+
+|02 |Inside the function, you can access and modify the value at the memory location pointed to by x. Changes made to *x will affect the original variable from the calling code.
+
+|03| Call the function from your main program and pass the address (pointer) of the variable you want to modify.
 
 These algorithms demonstrate how to implement call by value and call by reference using pointers in C++. Remember that in the call by value method, a copy of the argument is passed to the function, while in the call by reference method using pointers, the function receives the address of the original variable, allowing it to modify the original variable.
 
